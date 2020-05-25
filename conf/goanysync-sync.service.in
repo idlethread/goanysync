@@ -1,0 +1,6 @@
+[Unit]
+Description=Sync @PACKAGE_NAME@ sync volumes periodically to disk
+
+[Service]
+Type=oneshot
+ExecStart=@bindir@/@PACKAGE_NAME@ sync

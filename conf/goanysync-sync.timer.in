@@ -1,0 +1,12 @@
+[Unit]
+Description=Sync @PACKAGE_NAME@ volumes to disk every hour
+Documentation=main:@PACKAGE_NAME@
+Wants=local-fs.target
+
+[Timer]
+OnCalendar=hourly
+AccuracySec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

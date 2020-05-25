@@ -73,6 +73,8 @@ AC_CONFIG_FILES([Makefile:Makefile.in
                  script/goanysync:script/goanysync.in
                  conf/goanysync.init.conf:conf/goanysync.init.conf.in
                  conf/goanysync.service:conf/goanysync.service.in
+                 conf/goanysync-sync.service:conf/goanysync-sync.service.in
+                 conf/goanysync-sync.timer:conf/goanysync-sync.timer.in
                  conf/goanysync.cronjob:conf/goanysync.cronjob.in
                  conf/goanysync.conf:conf/goanysync.conf.in])
 
