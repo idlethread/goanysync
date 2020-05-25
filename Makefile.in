@@ -164,6 +164,8 @@ maintainer-clean: clean distclean
 		Makefile.am \
 		$(AUTOCONF_GEN_FILES) \
 		misc/license-gpl3-header.deb \
+		configure \
+		install-sh \
 	rm -rf autom4te.cache
 
 .PHONY: clean
@@ -175,6 +177,8 @@ clean:
 distclean:
 	rm -f $(distdir).tar.gz
 	rm -f $(package)_*.tar.gz
+	rm -f $(package)_*.tar.xz
+	rm -f $(package)_*.buildinfo
 	rm -f $(package)_*.{dsc,deb,changes} # Remove deb package files
 	if test -d $(distdir); then rm -rf $(distdir); fi
 
