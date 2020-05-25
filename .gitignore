@@ -1,0 +1,42 @@
+autom4te.cache
+/autoscan.log
+/autoscan-*.log
+/aclocal.m4
+/compile
+/config.guess
+/config.h.in
+/config.log
+/config.status
+/config.sub
+/configure
+/configure.scan
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+
+install-sh
+misc/license-gpl3-header
+
+config.log
+config.status
+
+goanysync
+goanysync*.tar.xz
+goanysync*.buildinfo
+
+# Generated Makefile
+# (meta build system like autotools,
+# can automatically generate from config.status script
+# (which is called by configure script))
+Makefile
+
+archlinux_pkg/PKGBUILD_dist
+
+conf/goanysync-sync.service
+conf/goanysync-sync.timer
+conf/goanysync.conf
+conf/goanysync.cronjob
+conf/goanysync.init.conf
+conf/goanysync.service
+
